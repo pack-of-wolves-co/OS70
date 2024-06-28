@@ -62,7 +62,7 @@ void vga_init(){
     vga_mem = (struct vga_char *)0xb8000;
     color.ch = ' ';
     color.fc = COL_L_GREY;
-    color.bc = COL_BLACK;
+    color.bc = COL_BLUE;
 }
 
 void putchar(char ch){
