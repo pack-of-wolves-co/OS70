@@ -35,7 +35,7 @@ static void print_ok(){
     putchar('[');
     vga_setcolor(COL_L_GREEN, COL_BLACK);
     puts("OK");
-    vga_setcolor(COL_L_GREY, COL_BLACK);
+    vga_setcolor(COL_L_WHITE, COL_BLUE);
     putchar(']');
 }
 
